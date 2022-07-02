@@ -5,7 +5,7 @@ import { AddUser } from "./AddUser";
 import { useEffect, useState } from "react";
 import { Updateuser } from "./UpdateUser";
 
-export const URL = "http://localhost:8000/user";
+export const URL = "https://gvmnodebackend.herokuapp.com/user";
 
 function App() {
   const [users, setUsers] = useState([]);
